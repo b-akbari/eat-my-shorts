@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+  
+    "name": "EatMyShorts",
+    "version": "0.0.1",
+    "description": "Hides shorts on youtube",
+  
+    "content_scripts": [{
+      "js": ["main.js"],
+      "matches": ["https://www.youtube.com/*"]
+    }],
+    "icons": {
+        "48": "images/visibility-small.png",
+        "96": "images/visibility.png"
+    },
+    "browser_action": {
+        "default_icon": "images/visibility.png"
+    }
+  
+}
