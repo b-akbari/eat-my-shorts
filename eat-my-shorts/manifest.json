@@ -10,8 +10,8 @@
       "matches": ["https://www.youtube.com/*"]
     }],
     "icons": {
-        "48": "images/visibility-small.png",
-        "96": "images/visibility.png"
+        "48": "images/images/visibility-small.png",
+        "96": "images/images/visibility.png"
     },
     "browser_action": {
         "default_icon": "images/visibility.png"
